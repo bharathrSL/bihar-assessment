@@ -1,4 +1,4 @@
-# 21stCenturyTool V2
+# bihar-assessment V2
 
 Fixed-layout, AI-assisted questionnaire digitization for one 34-question booklet.
 
@@ -6,7 +6,7 @@ Fixed-layout, AI-assisted questionnaire digitization for one 34-question booklet
 
 The supplied questionnaire is a 12-page physical booklet scanned as six
 two-page spreads. Keep `reference_master.pdf` one directory above this project
-folder (`D:\21stCenturyTool\reference_master.pdf`). The processor splits every
+folder (`D:\bihar-assessment\reference_master.pdf`). The processor splits every
 incoming six-page PDF into twelve logical pages in this order: `12|1`, `2|3`,
 `4|5`, `6|7`, `8|9`, and `10|11`. It then aligns each logical page to the
 master before generating answer crops.
