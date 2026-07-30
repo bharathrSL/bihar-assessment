@@ -1,0 +1,9 @@
+Timestamp,Model_Name,Input_Tokens,Output_Tokens,Total_Tokens,Latency_Seconds,Total_Cost_USD,Status
+2026-07-30 12:58:59,google/gemini-3.5-flash,38436,11061,49497,48.986,0.0,success
+2026-07-30 13:29:12,google/gemini-3.5-flash,14653,6888,21541,30.649,0.0,success
+2026-07-30 15:27:31,google/gemini-3.5-flash,14653,6538,21191,33.535,0.0,success
+2026-07-30 17:10:58,google/gemini-3.5-flash,14931,6230,21161,33.402,0.0,success
+2026-07-30 18:31:22,google/gemini-3.5-flash,14931,6205,21136,31.784,0.0,success
+2026-07-30 18:31:23,google/gemini-3.5-flash,14931,6230,21161,33.328,0.0,success
+2026-07-30 18:54:14,google/gemini-3.5-flash,14931,6230,21161,30.176,0.0,success
+2026-07-30 18:54:19,google/gemini-3.5-flash,14931,6003,20934,33.144,0.0,success

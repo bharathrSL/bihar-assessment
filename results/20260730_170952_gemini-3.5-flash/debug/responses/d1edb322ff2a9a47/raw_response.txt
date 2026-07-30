@@ -1,0 +1,288 @@
+{
+  "student": {
+    "student_name": "प्रियांशु कुमारी",
+    "gender": "",
+    "school_name": "रा. म. विद्यालय ईजमा बथिया",
+    "school_udise": "10030202401",
+    "crc_name": "उ० मा० वि० सरतौला खुर्द",
+    "crc_udise": "10030204305",
+    "block": "शिवहर",
+    "district": "",
+    "grade": "",
+    "meena_manch_participation": ""
+  },
+  "answers": [
+    {
+      "question_id": "Q1",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 0.3,
+      "review_required": true,
+      "raw_observations": "Multiple checkboxes marked and scribbled over."
+    },
+    {
+      "question_id": "Q2",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 0.3,
+      "review_required": true,
+      "raw_observations": "Multiple checkboxes marked and scribbled over."
+    },
+    {
+      "question_id": "Q3",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 0.3,
+      "review_required": true,
+      "raw_observations": "Multiple checkboxes marked and scribbled over."
+    },
+    {
+      "question_id": "Q4",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 0.3,
+      "review_required": true,
+      "raw_observations": "Multiple checkboxes marked and scribbled over."
+    },
+    {
+      "question_id": "Q5",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 0.3,
+      "review_required": true,
+      "raw_observations": "Multiple checkboxes marked and scribbled over."
+    },
+    {
+      "question_id": "Q6",
+      "selected_codes": [],
+      "answer_text": "हमरी स्कुल में अच्छा अच्छी होता है",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q7",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q8",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q9",
+      "selected_codes": ["C"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box C is clearly ticked."
+    },
+    {
+      "question_id": "Q10",
+      "selected_codes": ["B"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box B is clearly ticked."
+    },
+    {
+      "question_id": "Q11",
+      "selected_codes": [],
+      "answer_text": "हम स्कूल में पढ़ाई करते है उन्हें से मैम और बहुत पढ़ते है",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q12",
+      "selected_codes": ["C"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box C is clearly ticked."
+    },
+    {
+      "question_id": "Q13",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q14",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q15",
+      "selected_codes": ["A"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box A is clearly ticked."
+    },
+    {
+      "question_id": "Q16",
+      "selected_codes": [],
+      "answer_text": "दोस्त और विद्यालय में पानी और देना मदद करने",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q17",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q18",
+      "selected_codes": ["C"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box C is clearly ticked."
+    },
+    {
+      "question_id": "Q19",
+      "selected_codes": ["A"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box A is clearly ticked."
+    },
+    {
+      "question_id": "Q20",
+      "selected_codes": [],
+      "answer_text": "एक अच्छा विद्या बनाना चाहिए और बच्चे इनम पढ़ने का परियास करी थे शिक्षक पढ़ाये और बच्चे पढ़ते",
+      "confidence": 0.85,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q21",
+      "selected_codes": ["A"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box A is clearly ticked."
+    },
+    {
+      "question_id": "Q22",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q23",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q24",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q25",
+      "selected_codes": [],
+      "answer_text": "एक ऐसी स्थिति मदद करे अही वोती बोले उनोर है",
+      "confidence": 0.85,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q26",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q27",
+      "selected_codes": ["D"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box D is clearly ticked."
+    },
+    {
+      "question_id": "Q28",
+      "selected_codes": ["A"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box A is clearly ticked."
+    },
+    {
+      "question_id": "Q29",
+      "selected_codes": ["A"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box A is clearly ticked."
+    },
+    {
+      "question_id": "Q30",
+      "selected_codes": [],
+      "answer_text": "आप हमे समय देते का परियास करना चाहते",
+      "confidence": 0.85,
+      "review_required": false,
+      "raw_observations": "Legible handwritten Hindi text."
+    },
+    {
+      "question_id": "Q31",
+      "selected_codes": ["B"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box B is clearly ticked."
+    },
+    {
+      "question_id": "Q32",
+      "selected_codes": ["C"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box C is clearly ticked."
+    },
+    {
+      "question_id": "Q33",
+      "selected_codes": ["B"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box B is clearly ticked."
+    },
+    {
+      "question_id": "Q34",
+      "selected_codes": ["C"],
+      "answer_text": "",
+      "confidence": 0.9,
+      "review_required": false,
+      "raw_observations": "Box C is clearly ticked."
+    }
+  ]
+}

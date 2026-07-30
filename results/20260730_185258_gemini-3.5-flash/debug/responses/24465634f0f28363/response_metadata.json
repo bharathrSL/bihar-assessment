@@ -1,0 +1,8 @@
+{
+  "latency_seconds": 33.147,
+  "usage": {
+    "prompt_token_count": 14931,
+    "candidates_token_count": 6003,
+    "total_token_count": 20934
+  }
+}

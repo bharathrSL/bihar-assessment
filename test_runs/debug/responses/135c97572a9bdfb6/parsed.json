@@ -1,0 +1,352 @@
+[
+  {
+    "question_id": "Q1",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q2",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q3",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q4",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q5",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q6",
+    "selected_codes": [],
+    "answer_text": "लड़की की पढ़ाई करने की समस्या का सामना किसी भी समस्या का हल करना मुश्किल होता है तो इसलिए पढ़ना बहुत जरूरी है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text across images 6 and 7.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q7",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q8",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q9",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q10",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q11",
+    "selected_codes": [],
+    "answer_text": "समय से घर से निकलना सबके साथ आना समय से स्कूल पहुँचना तो हमलोग स्कूल में सुरक्षित रह सकते है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text across images 11 and 12.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q12",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q13",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q14",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q15",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q16",
+    "selected_codes": [],
+    "answer_text": "हमारे विद्यालय की लड़कियाँ नहीं स्कूल आ रही है। हमलोग उसे पढ़ने के लिए प्रेरित करेंगे ताकि पढ़ सके और आगे के जिवन में सुधार सकें इसलिए शिक्षा बहुत जरूरी है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text across images 16 and 17.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q17",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Options and marks for Q17 are not visible in the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q18",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q19",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q20",
+    "selected_codes": [],
+    "answer_text": "विद्यालय में बच्चों को लाकर साफ-सफाई करवाकर और बच्चों को पुरी तरह से शिक्षा दिलवाकर इस तरह हम विद्यालय की मदद कर सकते है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text from image 20.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q21",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Options A and B are missing, and no options are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q22",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q23",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q24",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Question text is cut off and no options are visible.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q25",
+    "selected_codes": [],
+    "answer_text": "हम पढ़ रहे है और फिर तक पढ़ेगी और दूसरे बच्चों को पढ़ाई में मदद करने की जिम्मेदारी निभा रहे है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text across images 25 and 26.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q26",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q27",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q28",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "No options are marked for Q28.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q29",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q30",
+    "selected_codes": [],
+    "answer_text": "हमारे सपने है बड़े होकर टीचर बनना क्योंकि शिक्षा देना चाहते है।",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text across images 30 and 31.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q31",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "No options are marked for Q31.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q32",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Question 32 is not fully visible and no options are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q33",
+    "selected_codes": [
+      "E"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option E is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q34",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a checkmark.",
+    "final_confidence": 0.0
+  }
+]

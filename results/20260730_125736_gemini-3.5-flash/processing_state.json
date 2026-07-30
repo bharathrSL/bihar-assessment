@@ -1,0 +1,363 @@
+{
+  "completed": {
+    "/home/bharat/Bihar Assessment/bihar-assessment/input_pdfs/20260707030220.pdf": {
+      "record_id": "d1edb322ff2a9a47",
+      "pdf": "20260707030220.pdf",
+      "confidence": 0.842,
+      "review": true,
+      "audit": [
+        "Q1: mandatory answer missing",
+        "Q2: mandatory answer missing",
+        "Q3: mandatory answer missing",
+        "Q4: mandatory answer missing",
+        "Q5: mandatory answer missing",
+        "Q18: mandatory answer missing",
+        "Q21: mandatory answer missing",
+        "Q24: mandatory answer missing",
+        "Q28: mandatory answer missing",
+        "Q31: mandatory answer missing",
+        "Q32: mandatory answer missing"
+      ],
+      "answers": {
+        "Q1": {
+          "question_id": "Q1",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes are marked or have lines through them, making the selection ambiguous.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.837
+        },
+        "Q2": {
+          "question_id": "Q2",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes (B, C, D) are marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.834
+        },
+        "Q3": {
+          "question_id": "Q3",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes (A, C, D) are marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.832
+        },
+        "Q4": {
+          "question_id": "Q4",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes (A, B) are marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.837
+        },
+        "Q5": {
+          "question_id": "Q5",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes (A, B) are marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.839
+        },
+        "Q6": {
+          "question_id": "Q6",
+          "selected_codes": [],
+          "answer_text": "हमरी स्कुल में अच्छा अच्छी होता है",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.939
+        },
+        "Q7": {
+          "question_id": "Q7",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.916
+        },
+        "Q8": {
+          "question_id": "Q8",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.9
+        },
+        "Q9": {
+          "question_id": "Q9",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box C is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.928
+        },
+        "Q10": {
+          "question_id": "Q10",
+          "selected_codes": [
+            "B"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box B is clearly marked.; CV cross-check: 3 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.9
+        },
+        "Q11": {
+          "question_id": "Q11",
+          "selected_codes": [],
+          "answer_text": "हम स्कुल में पढ़ाई करते है उनी से मैम और बहुत पढ़ते है",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.935
+        },
+        "Q12": {
+          "question_id": "Q12",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box C is clearly marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.935
+        },
+        "Q13": {
+          "question_id": "Q13",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.893
+        },
+        "Q14": {
+          "question_id": "Q14",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.898
+        },
+        "Q15": {
+          "question_id": "Q15",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box A is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.925
+        },
+        "Q16": {
+          "question_id": "Q16",
+          "selected_codes": [],
+          "answer_text": "दोस्त और विद्यालय में पानी आने देना मदद करने",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.919
+        },
+        "Q17": {
+          "question_id": "Q17",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "Options and marks are not visible in the images.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.751
+        },
+        "Q18": {
+          "question_id": "Q18",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "No marked box is visible for this question.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.659
+        },
+        "Q19": {
+          "question_id": "Q19",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box A is clearly marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.923
+        },
+        "Q20": {
+          "question_id": "Q20",
+          "selected_codes": [],
+          "answer_text": "एक साथा विद्याय बनाना चाहिए और बच्चे इसम पढ़ने का परियास करी थ्ये शिक्षक पढ़ाये और बच्चे पढ़ते",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.931
+        },
+        "Q21": {
+          "question_id": "Q21",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "No marked box is visible for this question.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.605
+        },
+        "Q22": {
+          "question_id": "Q22",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 1 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.827
+        },
+        "Q23": {
+          "question_id": "Q23",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.893
+        },
+        "Q24": {
+          "question_id": "Q24",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "Options and marks are not visible in the images.; CV cross-check: 3 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.634
+        },
+        "Q25": {
+          "question_id": "Q25",
+          "selected_codes": [],
+          "answer_text": "अच्छी बोली बोले उनी है",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.918
+        },
+        "Q26": {
+          "question_id": "Q26",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.915
+        },
+        "Q27": {
+          "question_id": "Q27",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box D is clearly marked.; CV cross-check: 2 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.904
+        },
+        "Q28": {
+          "question_id": "Q28",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "No marked box is visible for this question.; CV cross-check: 1 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.652
+        },
+        "Q29": {
+          "question_id": "Q29",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box A is clearly marked.; CV cross-check: 1 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.84
+        },
+        "Q30": {
+          "question_id": "Q30",
+          "selected_codes": [],
+          "answer_text": "आप उनी समय है का परियास करना है",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+          "final_confidence": 0.935
+        },
+        "Q31": {
+          "question_id": "Q31",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple boxes (B and D) are marked.; CV cross-check: 3 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.825
+        },
+        "Q32": {
+          "question_id": "Q32",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.5,
+          "review_required": true,
+          "raw_observations": "Question 32 is missing from the images.; CV cross-check: 4 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.642
+        },
+        "Q33": {
+          "question_id": "Q33",
+          "selected_codes": [
+            "B"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": false,
+          "raw_observations": "Box B is clearly marked.; CV cross-check: 5 marked; patterns include tick/cross/circle/scribble when fill is ambiguous",
+          "final_confidence": 0.858
+        },
+        "Q34": {
+          "question_id": "Q34",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Box C is clearly marked.; CV cross-check: no checkbox contours",
+          "final_confidence": 0.661
+        }
+      }
+    }
+  }
+}

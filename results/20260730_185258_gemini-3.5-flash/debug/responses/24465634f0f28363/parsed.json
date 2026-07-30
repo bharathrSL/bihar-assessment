@@ -1,0 +1,376 @@
+{
+  "student": {
+    "student_name": "ज्योति कुमारी",
+    "gender": "महिला",
+    "school_name": "रा० म० विद्यालय रेबासा बविज",
+    "school_udise": "10030202401",
+    "crc_name": "उ० मा० वि० सरकौला खुर्द",
+    "crc_udise": "10030204305",
+    "block": "शिवहर",
+    "district": "शिवहर",
+    "grade": "B. सातवीं कक्षा",
+    "meena_manch_participation": "A. हाँ"
+  },
+  "answers": [
+    {
+      "question_id": "Q1",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q2",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q3",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q4",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q5",
+      "selected_codes": [
+        "A"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option A is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q6",
+      "selected_codes": [],
+      "answer_text": "बिमरी का सामना करना पड़ता है।",
+      "confidence": 0.95,
+      "review_required": false,
+      "raw_observations": "Handwritten text transcribed exactly.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q7",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q8",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q9",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q10",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q11",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Blank.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q12",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q13",
+      "selected_codes": [
+        "A"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option A is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q14",
+      "selected_codes": [
+        "A"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option A is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q15",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q16",
+      "selected_codes": [],
+      "answer_text": "बच्चे को समझा सकते है कि यह काम इस तरीके से करना चाहिए",
+      "confidence": 0.95,
+      "review_required": false,
+      "raw_observations": "Handwritten text transcribed exactly.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q17",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q18",
+      "selected_codes": [
+        "A"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option A is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q19",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q20",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Blank.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q21",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q22",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q23",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q24",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q25",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Blank.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q26",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": true,
+      "raw_observations": "No option is checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q27",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q28",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q29",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q30",
+      "selected_codes": [],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Blank.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q31",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q32",
+      "selected_codes": [
+        "D"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option D is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q33",
+      "selected_codes": [
+        "B"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option B is clearly checked.",
+      "final_confidence": 0.0
+    },
+    {
+      "question_id": "Q34",
+      "selected_codes": [
+        "C"
+      ],
+      "answer_text": "",
+      "confidence": 1.0,
+      "review_required": false,
+      "raw_observations": "Option C is clearly checked.",
+      "final_confidence": 0.0
+    }
+  ]
+}

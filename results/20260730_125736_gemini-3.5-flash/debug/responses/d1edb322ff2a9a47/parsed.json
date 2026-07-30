@@ -1,0 +1,340 @@
+[
+  {
+    "question_id": "Q1",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes are marked or have lines through them, making the selection ambiguous.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q2",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes (B, C, D) are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q3",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes (A, C, D) are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q4",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes (A, B) are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q5",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes (A, B) are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q6",
+    "selected_codes": [],
+    "answer_text": "हमरी स्कुल में अच्छा अच्छी होता है",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q7",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q8",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q9",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box C is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q10",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box B is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q11",
+    "selected_codes": [],
+    "answer_text": "हम स्कुल में पढ़ाई करते है उनी से मैम और बहुत पढ़ते है",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q12",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box C is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q13",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q14",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q15",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box A is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q16",
+    "selected_codes": [],
+    "answer_text": "दोस्त और विद्यालय में पानी आने देना मदद करने",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q17",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Options and marks are not visible in the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q18",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "No marked box is visible for this question.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q19",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box A is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q20",
+    "selected_codes": [],
+    "answer_text": "एक साथा विद्याय बनाना चाहिए और बच्चे इसम पढ़ने का परियास करी थ्ये शिक्षक पढ़ाये और बच्चे पढ़ते",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q21",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "No marked box is visible for this question.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q22",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q23",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q24",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Options and marks are not visible in the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q25",
+    "selected_codes": [],
+    "answer_text": "अच्छी बोली बोले उनी है",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q26",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q27",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box D is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q28",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "No marked box is visible for this question.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q29",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box A is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q30",
+    "selected_codes": [],
+    "answer_text": "आप उनी समय है का परियास करना है",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Transcribed handwritten Hindi text exactly as written.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q31",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": true,
+    "raw_observations": "Multiple boxes (B and D) are marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q32",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "Question 32 is missing from the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q33",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box B is clearly marked.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q34",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Box C is clearly marked.",
+    "final_confidence": 0.0
+  }
+]

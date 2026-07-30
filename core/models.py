@@ -15,10 +15,40 @@ class Answer:
     def to_dict(self) -> dict[str, Any]: return asdict(self)
 
 @dataclass
-class Record:
-    record_id: str; pdf: str; answers: dict[str, Answer]; confidence: float
-    review: bool; audit: list[str] = field(default_factory=list)
+class StudentInfo:
+    student_name: str = ""
+    gender: str = ""
+    school_name: str = ""
+    school_udise: str = ""
+    crc_name: str = ""
+    crc_udise: str = ""
+    block: str = ""
+    district: str = ""
+    grade: str = ""
+    meena_manch_participation: str = ""
+
     def to_dict(self) -> dict[str, Any]:
-        return {"record_id": self.record_id, "pdf": self.pdf, "confidence": self.confidence,
-                "review": self.review, "audit": self.audit,
-                "answers": {k: v.to_dict() for k, v in self.answers.items()}}
+        return asdict(self)
+    
+@dataclass
+class Record:
+    record_id: str
+    pdf: str
+    student: StudentInfo = field(default_factory=StudentInfo)
+    answers: dict[str, Answer] = field(default_factory=dict)
+    confidence: float = 0.0
+    review: bool = False
+    audit: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "record_id": self.record_id,
+            "pdf": self.pdf,
+            "student": self.student.to_dict(),
+            "confidence": self.confidence,
+            "review": self.review,
+            "audit": self.audit,
+            "answers": {
+                k: v.to_dict() for k, v in self.answers.items()
+            }
+        }

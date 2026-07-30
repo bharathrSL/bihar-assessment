@@ -1,0 +1,276 @@
+```json
+[
+  {
+    "question_id": "Q1",
+    "selected_codes": ["B"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly ticked."
+  },
+  {
+    "question_id": "Q2",
+    "selected_codes": ["B"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly ticked."
+  },
+  {
+    "question_id": "Q3",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q4",
+    "selected_codes": ["D"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly ticked."
+  },
+  {
+    "question_id": "Q5",
+    "selected_codes": ["A"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly ticked."
+  },
+  {
+    "question_id": "Q6",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q7",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "Multiple options (A and C) are ticked."
+  },
+  {
+    "question_id": "Q8",
+    "selected_codes": ["D"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly ticked."
+  },
+  {
+    "question_id": "Q9",
+    "selected_codes": ["B"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly ticked."
+  },
+  {
+    "question_id": "Q10",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q11",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q12",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q13",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q14",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q15",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q16",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q17",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q18",
+    "selected_codes": ["B"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly ticked."
+  },
+  {
+    "question_id": "Q19",
+    "selected_codes": ["C"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly ticked."
+  },
+  {
+    "question_id": "Q20",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q21",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q22",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q23",
+    "selected_codes": ["D"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly ticked."
+  },
+  {
+    "question_id": "Q24",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q25",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q26",
+    "selected_codes": ["B"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly ticked."
+  },
+  {
+    "question_id": "Q27",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q28",
+    "selected_codes": ["D"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly ticked."
+  },
+  {
+    "question_id": "Q29",
+    "selected_codes": ["C"],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly ticked."
+  },
+  {
+    "question_id": "Q30",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The answer area is blank."
+  },
+  {
+    "question_id": "Q31",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q32",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q33",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  },
+  {
+    "question_id": "Q34",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": true,
+    "raw_observations": "No options are marked."
+  }
+]
+```

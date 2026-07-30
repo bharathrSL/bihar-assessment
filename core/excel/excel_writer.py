@@ -7,23 +7,54 @@ from core.questionnaire.answer_mapper import AnswerMapper
 class ExcelWriter:
     def write(self, records: list[Record], path: str | Path) -> Path:
         path=Path(path); path.parent.mkdir(parents=True,exist_ok=True); wb=Workbook(); responses=wb.active; responses.title="Responses"
-        header=["Record ID","PDF","Confidence","Review"]+[f"Q{i}" for i in range(1,35)]; responses.append(header)
+        header = [
+            "Record ID",
+            "PDF",
+            "Student Name",
+            "Gender",
+            "School Name",
+            "School UDISE",
+            "CRC Name",
+            "CRC UDISE",
+            "Block",
+            "District",
+            "Grade",
+            "Meena Manch Participation",
+            "Confidence",
+            "Review",
+        ] + [f"Q{i}" for i in range(1, 35)] 
+        responses.append(header)
         for c in responses[1]: c.font=Font(bold=True); c.fill=PatternFill("solid",fgColor="D9EAF7")
         review=wb.create_sheet("Review Queue"); review.append(["Record ID","PDF","Question","AI Answer","Confidence","Reason"])
         audit=wb.create_sheet("Audit"); audit.append(["Record ID","Event"])
         summary=wb.create_sheet("Summary"); summary.append(["Metric","Value"])
-        logs=wb.create_sheet("Processing Log"); logs.append(["Record ID","PDF","Confidence","Review"])
+        logs=wb.create_sheet("Processing Log"); logs.append(["Record ID","PDF","Student Name","Confidence","Review"])
         for record in records:
             row = [
-    record.record_id,
-    record.pdf,
-    record.confidence,
-    record.review,
-] + [
-    AnswerMapper.value(record.answers.get(f"Q{i}", Answer(question_id=f"Q{i}")))
-    for i in range(1, 35)
-]
-            responses.append(row); logs.append([record.record_id,record.pdf,record.confidence,record.review])
+                record.record_id,
+                record.pdf,
+                record.student.student_name,
+                record.student.gender,
+                record.student.school_name,
+                record.student.school_udise,
+                record.student.crc_name,
+                record.student.crc_udise,
+                record.student.block,
+                record.student.district,
+                record.student.grade,
+                record.student.meena_manch_participation,
+                record.confidence,
+                record.review,
+            ] + [
+                AnswerMapper.value(
+                    record.answers.get(
+                        f"Q{i}",
+                        Answer(question_id=f"Q{i}")
+                    )
+                )
+                for i in range(1, 35)
+            ]
+            responses.append(row); logs.append([record.record_id,record.pdf,record.student.student_name,record.confidence,record.review])
             for event in record.audit: audit.append([record.record_id,event])
             for answer in record.answers.values():
                 if answer.review_required: review.append([record.record_id,record.pdf,answer.question_id,AnswerMapper.value(answer),answer.final_confidence,answer.raw_observations])

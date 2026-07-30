@@ -1,0 +1,20 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemini-3.5-flash",
+  "image_count": 12,
+  "image_paths": {
+    "12": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_12.png",
+    "1": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_1.png",
+    "2": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_2.png",
+    "3": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_3.png",
+    "4": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_4.png",
+    "5": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_5.png",
+    "6": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_6.png",
+    "7": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_7.png",
+    "8": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_8.png",
+    "9": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_9.png",
+    "10": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_10.png",
+    "11": "results/20260730_132808_gemini-3.5-flash/pages/d1edb322ff2a9a47/page_11.png"
+  },
+  "prompt_length": 4048
+}

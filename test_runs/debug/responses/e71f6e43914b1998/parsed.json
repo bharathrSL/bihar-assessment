@@ -1,0 +1,354 @@
+[
+  {
+    "question_id": "Q1",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q2",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q3",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q4",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q5",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q6",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q7",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.8,
+    "review_required": true,
+    "raw_observations": "Both options B and C appear to have tick marks, which is ambiguous for a single-choice question.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q8",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q9",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q10",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q11",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q12",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Option D is marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q13",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q14",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q15",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.8,
+    "review_required": true,
+    "raw_observations": "Both options B and D are marked with ticks, which is invalid for a single-choice question.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q16",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q17",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "The options and marks for Q17 are missing from the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q18",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q19",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q20",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q21",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q22",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q23",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q24",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "The options and marks for Q24 are missing from the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q25",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q26",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option D is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q27",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q28",
+    "selected_codes": [
+      "C"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option C is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q29",
+    "selected_codes": [
+      "A"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option A is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q30",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "The response area is completely blank.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q31",
+    "selected_codes": [],
+    "answer_text": "",
+    "confidence": 0.5,
+    "review_required": true,
+    "raw_observations": "The marked option for Q31 is missing from the images.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q32",
+    "selected_codes": [
+      "D"
+    ],
+    "answer_text": "",
+    "confidence": 0.9,
+    "review_required": false,
+    "raw_observations": "Option D is marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q33",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a tick.",
+    "final_confidence": 0.0
+  },
+  {
+    "question_id": "Q34",
+    "selected_codes": [
+      "B"
+    ],
+    "answer_text": "",
+    "confidence": 0.95,
+    "review_required": false,
+    "raw_observations": "Option B is clearly marked with a tick.",
+    "final_confidence": 0.0
+  }
+]

@@ -2,9 +2,9 @@
 from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-import hashlib, fitz, cv2, yaml
+import hashlib, os, fitz, cv2, yaml
 import numpy as np
-from core.models import Answer, Record
+from core.models import Answer, Record, StudentInfo
 from core.utils import read_json, write_json
 from core.questionnaire.schema_loader import SchemaLoader
 from core.questionnaire.prompt_builder import PromptBuilder
@@ -22,12 +22,14 @@ from core.checkbox.checkbox_detector import CheckboxDetector
 from core.checkbox.checkbox_classifier import CheckboxClassifier
 from core.handwriting.handwriting_cropper import HandwritingCropper
 from core.handwriting.handwriting_quality import HandwritingQuality
-from core.ai.gemini_provider import GeminiProvider
+from core.ai.openrouter_provider import OpenRouterProvider
 from core.ai.response_parser import ResponseParser
 from core.ai.retry import Retry
 from core.ai.confidence import ConfidenceEngine
 from core.rules.rule_engine import RuleEngine
 from core.questionnaire.validator import Validator
+from core.models import StudentInfo
+
 
 class BatchProcessor:
     def __init__(self, config_dir: str | Path, output_dir: str | Path):
@@ -80,10 +82,26 @@ class BatchProcessor:
         records.extend(self._record_from_dict(x) for x in state["completed"].values() if x["record_id"] not in {r.record_id for r in records})
         return sorted(records,key=lambda r:r.pdf)
     def _record_from_dict(self, data: dict) -> Record:
-        return Record(data["record_id"],data["pdf"],{k:Answer(**v) for k,v in data["answers"].items()},data["confidence"],data["review"],data.get("audit",[]))
+        return Record(
+            record_id=data["record_id"],
+            pdf=data["pdf"],
+            student=StudentInfo(**data.get("student", {})),
+            answers={k: Answer(**v) for k, v in data["answers"].items()},
+            confidence=data["confidence"],
+            review=data["review"],
+            audit=data.get("audit", []),
+        )
     def process_pdf(self, pdf: Path) -> Record:
         errors=Validator.validate_pdf(pdf); record_id=hashlib.sha256(pdf.read_bytes()).hexdigest()[:16]
-        if errors: return Record(record_id,pdf.name,{},0,True,errors)
+        if errors: return Record(
+                record_id=record_id,
+                pdf=pdf.name,
+                student=StudentInfo(),
+                answers={},
+                confidence=0,
+                review=True,
+                audit=errors,
+            )
         doc=fitz.open(pdf)
         if len(doc) != self.source_spread_count:
             return Record(
@@ -94,7 +112,7 @@ class BatchProcessor:
                 True,
                 [f"Expected {self.source_spread_count} two-page spreads; found {len(doc)}"],
             )
-        crops={}; page_quality={}; checkbox_meta={}; writing_quality={}; locator=QuestionLocator(self.layout); generator=CropGenerator(locator,self.output/"crops")
+        crops={}; pages = {}; page_quality={}; checkbox_meta={}; writing_quality={}; locator=QuestionLocator(self.layout); generator=CropGenerator(locator,self.output/"crops")
         by_page = {
             page: [question for question in self.questions if question.page == page]
             for page in range(1, self.page_count + 1)
@@ -105,17 +123,40 @@ class BatchProcessor:
                 image = Deskewer().correct(NoiseRemover().remove(ShadowRemover().remove(raw_image)))
                 image = PageAligner().align(image, self.reference_pages[number])
                 image = ImageCleaner().clean(image)
+
+                # Testing///////////////////////
+                page_path = self.output / "pages" / record_id
+                page_path.mkdir(parents=True, exist_ok=True)
+
+                page_file = page_path / f"page_{number}.png"
+                cv2.imwrite(str(page_file), image)
+
+                pages[number] = page_file
+                # Testing///////////////////////
+
                 page_quality[number]=ImageQuality().score(image)
-                for q in by_page[number]:
-                    crop,path=generator.crop(image,number,q.id,record_id); crops[q.id]=path
-                    if "choice" in q.type:
-                        marks=CheckboxDetector().detect(crop,len(q.options)); checkbox_meta[q.id]=CheckboxClassifier().classify(marks,q.options)
-                    else: writing_quality[q.id]=HandwritingQuality().score(HandwritingCropper().prepare(crop))
+                # for q in by_page[number]:
+                #     crop,path=generator.crop(image,number,q.id,record_id); crops[q.id]=path
+                #     if "choice" in q.type:
+                #         marks=CheckboxDetector().detect(crop,len(q.options)); checkbox_meta[q.id]=CheckboxClassifier().classify(marks,q.options)
+                #     else: writing_quality[q.id]=HandwritingQuality().score(HandwritingCropper().prepare(crop))
         debug_root = self.output / "debug"
         (debug_root / "prompts").mkdir(parents=True, exist_ok=True)
         (debug_root / "prompts" / f"{record_id}.txt").write_text(self.prompt, encoding="utf-8")
-        provider=GeminiProvider(self.settings["gemini_model"],ResponseParser(),Retry(self.settings["max_retries"],self.settings["retry_backoff_seconds"]))
-        ai={a.question_id:a for a in provider.extract(self.prompt,crops,self.questions,debug_root / "responses" / record_id)}
+        retry = Retry(self.settings["max_retries"], self.settings["retry_backoff_seconds"])
+        provider = OpenRouterProvider(
+            os.getenv("OPENROUTER_MODEL", self.settings["openrouter_model"]), ResponseParser(), retry
+        )
+        # ai={a.question_id:a for a in provider.extract(self.prompt,crops,self.questions,debug_root / "responses" / record_id)}
+        # ai={a.question_id:a for a in provider.extract(self.prompt,pages,self.questions,debug_root / "responses" / record_id)}
+        student, ai_answers = provider.extract(
+            self.prompt,
+            pages,
+            self.questions,
+            debug_root / "responses" / record_id,
+        )
+
+        ai = {a.question_id: a for a in ai_answers}
         answers={}; audit=[]; engine=ConfidenceEngine(); rules=RuleEngine()
         for q in self.questions:
             answer=ai.get(q.id,Answer(q.id,confidence=0,review_required=True,raw_observations="missing AI answer"))
@@ -123,12 +164,59 @@ class BatchProcessor:
             if q.id in checkbox_meta:
                 detected,checkbox,obs=checkbox_meta[q.id]
                 # Computer vision contributes confidence only. It must never fill
-                # an answer when Gemini is unavailable or intentionally returns
+                # an answer when the LLM is unavailable or intentionally returns
                 # an empty response, because checkbox outlines otherwise look
                 # like selected answers.
                 answer.raw_observations=f"{answer.raw_observations}; CV cross-check: {obs}"
-            issues=rules.evaluate(answer,q); answer.final_confidence=engine.calculate(answer.confidence,checkbox,page_quality[q.page],handwriting,not issues)
+            # issues=rules.evaluate(answer,q); answer.final_confidence=engine.calculate(answer.confidence,checkbox,page_quality[q.page],handwriting,not issues)
+            
+            # Testing////////////////////////////////
+            issues=rules.evaluate(answer,q);
+            llm_confidence = answer.confidence
+            # checkbox_confidence = checkbox
+            page_confidence = page_quality[q.page]
+            # handwriting_confidence = handwriting
+            rules_passed = not issues
+
+            answer.final_confidence = engine.calculate(
+                llm_confidence,
+                # checkbox_confidence,
+                page_confidence,
+                # handwriting_confidence,
+                rules_passed,
+            )
+
+            print("=" * 80)
+            print(f"{q.id}")
+            print(f"LLM Confidence        : {llm_confidence:.3f}")
+            # print(f"Checkbox Confidence  : {checkbox_confidence:.3f}")
+            print(f"Page Quality         : {page_confidence:.3f}")
+            # print(f"Handwriting Quality  : {handwriting_confidence:.3f}")
+            print(f"Rules Passed         : {rules_passed}")
+            print(f"Final Confidence     : {answer.final_confidence:.3f}")
+            print(f"Review Required      : {answer.review_required}")
+            print("=" * 80)
+
+            # Testing////////////////////////////////
             answer.review_required=answer.review_required or bool(issues) or answer.final_confidence<float(self.settings["review_confidence_threshold"])
             audit.extend(f"{q.id}: {issue}" for issue in issues); answers[q.id]=answer
-        confidence=round(sum(a.final_confidence for a in answers.values())/34,3)
-        return Record(record_id,pdf.name,answers,confidence,any(a.review_required for a in answers.values()),audit)
+        # confidence=round(sum(a.final_confidence for a in answers.values())/34,3)
+        total_confidence = sum(a.final_confidence for a in answers.values())
+
+        print("\n" + "=" * 80)
+        print(f"Total Confidence : {total_confidence:.3f}")
+        print(f"Questions        : {len(answers)}")
+        print(f"Average          : {total_confidence / len(answers):.3f}")
+        print("=" * 80 + "\n")
+
+        confidence = round(total_confidence / len(answers), 3)
+        # return Record(record_id,pdf.name,answers,confidence,any(a.review_required for a in answers.values()),audit)
+        return Record(
+            record_id=record_id,
+            pdf=pdf.name,
+            student=student,
+            answers=answers,
+            confidence=confidence,
+            review=any(a.review_required for a in answers.values()),
+            audit=audit,
+        )

@@ -2,11 +2,11 @@ workers: 2
 render_dpi: 200
 source_spread_count: 6
 logical_page_count: 12
-reference_master_pdf: ../../reference_master.pdf
+reference_master_pdf: ../reference_master.pdf
 spread_gutter_fraction: 0.018
 min_image_quality: 0.35
 review_confidence_threshold: 0.72
-gemini_model: gemini-3.5-flash
+openrouter_model: google/gemini-3.5-flash
 max_retries: 3
 retry_backoff_seconds: 1.5
 output_workbook: questionnaire_results.xlsx

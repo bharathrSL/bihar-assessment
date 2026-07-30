@@ -1,0 +1,371 @@
+{
+  "completed": {
+    "/home/bharat/Bihar Assessment/bihar-assessment/input_pdfs/20260707030220.pdf": {
+      "record_id": "d1edb322ff2a9a47",
+      "pdf": "20260707030220.pdf",
+      "confidence": 0.678,
+      "review": true,
+      "audit": [
+        "Q1: mandatory answer missing",
+        "Q2: mandatory answer missing",
+        "Q3: mandatory answer missing",
+        "Q4: mandatory answer missing",
+        "Q5: mandatory answer missing"
+      ],
+      "answers": {
+        "Q1": {
+          "question_id": "Q1",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple checkboxes are marked or scribbled over.",
+          "final_confidence": 0.59
+        },
+        "Q2": {
+          "question_id": "Q2",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple checkboxes are marked or scribbled over.",
+          "final_confidence": 0.59
+        },
+        "Q3": {
+          "question_id": "Q3",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple checkboxes are marked or scribbled over.",
+          "final_confidence": 0.59
+        },
+        "Q4": {
+          "question_id": "Q4",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple checkboxes are marked or scribbled over.",
+          "final_confidence": 0.589
+        },
+        "Q5": {
+          "question_id": "Q5",
+          "selected_codes": [],
+          "answer_text": "",
+          "confidence": 0.9,
+          "review_required": true,
+          "raw_observations": "Multiple checkboxes are marked or scribbled over.",
+          "final_confidence": 0.589
+        },
+        "Q6": {
+          "question_id": "Q6",
+          "selected_codes": [],
+          "answer_text": "हमरी स्कुल में अच्छा अच्छी होता है",
+          "confidence": 0.85,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.667
+        },
+        "Q7": {
+          "question_id": "Q7",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.712
+        },
+        "Q8": {
+          "question_id": "Q8",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.701
+        },
+        "Q9": {
+          "question_id": "Q9",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option C is clearly ticked.",
+          "final_confidence": 0.701
+        },
+        "Q10": {
+          "question_id": "Q10",
+          "selected_codes": [
+            "B"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option B is clearly ticked.",
+          "final_confidence": 0.701
+        },
+        "Q11": {
+          "question_id": "Q11",
+          "selected_codes": [],
+          "answer_text": "हम स्कूल में पढ़ाई करते है उन्हें से मैम और बहुत पढ़ते है",
+          "confidence": 0.85,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.662
+        },
+        "Q12": {
+          "question_id": "Q12",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option C is clearly ticked.",
+          "final_confidence": 0.707
+        },
+        "Q13": {
+          "question_id": "Q13",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.707
+        },
+        "Q14": {
+          "question_id": "Q14",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.707
+        },
+        "Q15": {
+          "question_id": "Q15",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option A is clearly ticked.",
+          "final_confidence": 0.704
+        },
+        "Q16": {
+          "question_id": "Q16",
+          "selected_codes": [],
+          "answer_text": "दोस्त और विद्यालय में पानी और देना मदद करने",
+          "confidence": 0.85,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.659
+        },
+        "Q17": {
+          "question_id": "Q17",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.704
+        },
+        "Q18": {
+          "question_id": "Q18",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option C is clearly ticked.",
+          "final_confidence": 0.712
+        },
+        "Q19": {
+          "question_id": "Q19",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option A is clearly ticked.",
+          "final_confidence": 0.712
+        },
+        "Q20": {
+          "question_id": "Q20",
+          "selected_codes": [],
+          "answer_text": "एक अच्छा विद्या बनाना चाहिए और बच्चे इनम पढ़ने का परियास करी थे शिक्षक पढ़ाये और बच्चे पढ़ते",
+          "confidence": 0.8,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.644
+        },
+        "Q21": {
+          "question_id": "Q21",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option A is clearly ticked.",
+          "final_confidence": 0.712
+        },
+        "Q22": {
+          "question_id": "Q22",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.7
+        },
+        "Q23": {
+          "question_id": "Q23",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.7
+        },
+        "Q24": {
+          "question_id": "Q24",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.7
+        },
+        "Q25": {
+          "question_id": "Q25",
+          "selected_codes": [],
+          "answer_text": "एक ऐसी स्थिति मदद करे अछी वोती बोले और है",
+          "confidence": 0.8,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.637
+        },
+        "Q26": {
+          "question_id": "Q26",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.705
+        },
+        "Q27": {
+          "question_id": "Q27",
+          "selected_codes": [
+            "D"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option D is clearly ticked.",
+          "final_confidence": 0.705
+        },
+        "Q28": {
+          "question_id": "Q28",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option A is clearly ticked.",
+          "final_confidence": 0.705
+        },
+        "Q29": {
+          "question_id": "Q29",
+          "selected_codes": [
+            "A"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option A is clearly ticked.",
+          "final_confidence": 0.708
+        },
+        "Q30": {
+          "question_id": "Q30",
+          "selected_codes": [],
+          "answer_text": "आप हमे समय है का परियास करना चाहते",
+          "confidence": 0.8,
+          "review_required": true,
+          "raw_observations": "Legible handwritten Hindi text.",
+          "final_confidence": 0.64
+        },
+        "Q31": {
+          "question_id": "Q31",
+          "selected_codes": [
+            "B"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option B is clearly ticked.",
+          "final_confidence": 0.708
+        },
+        "Q32": {
+          "question_id": "Q32",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option C is clearly ticked.",
+          "final_confidence": 0.708
+        },
+        "Q33": {
+          "question_id": "Q33",
+          "selected_codes": [
+            "B"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option B is clearly ticked.",
+          "final_confidence": 0.684
+        },
+        "Q34": {
+          "question_id": "Q34",
+          "selected_codes": [
+            "C"
+          ],
+          "answer_text": "",
+          "confidence": 0.95,
+          "review_required": true,
+          "raw_observations": "Option C is clearly ticked.",
+          "final_confidence": 0.684
+        }
+      }
+    }
+  }
+}

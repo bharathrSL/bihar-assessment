@@ -16,7 +16,7 @@ master before generating answer crops.
 ```powershell
 python -m venv .venv; .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-$env:GEMINI_API_KEY = "..." # optional; deterministic local extraction still runs
+$env:OPENROUTER_API_KEY = "..."
 python main.py process --input C:\scans --output C:\results
 streamlit run core/review/streamlit_review.py -- --run-dir C:\results
 ```

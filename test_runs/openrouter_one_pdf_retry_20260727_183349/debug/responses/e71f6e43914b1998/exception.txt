@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/bharat/Bihar Assessment/bihar-assessment/llm_provider.py", line 88, in generate_content
+    response.raise_for_status()
+  File "/home/bharat/Bihar Assessment/bihar-assessment/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bharat/Bihar Assessment/bihar-assessment/core/ai/openrouter_provider.py", line 60, in extract
+    response = self.retry.run(lambda: client.generate_content(contents, max_retries=1))
+  File "/home/bharat/Bihar Assessment/bihar-assessment/core/ai/retry.py", line 12, in run
+    raise error
+  File "/home/bharat/Bihar Assessment/bihar-assessment/core/ai/retry.py", line 8, in run
+    try: return action()
+  File "/home/bharat/Bihar Assessment/bihar-assessment/core/ai/openrouter_provider.py", line 60, in <lambda>
+    response = self.retry.run(lambda: client.generate_content(contents, max_retries=1))
+  File "/home/bharat/Bihar Assessment/bihar-assessment/llm_provider.py", line 100, in generate_content
+    raise RuntimeError(f"OpenRouter request failed: {error}") from error
+RuntimeError: OpenRouter request failed: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
